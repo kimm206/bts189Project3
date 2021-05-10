@@ -1,0 +1,115 @@
+section {
+    display: block;
+}
+
+ul {
+    list-style: circle;
+}
+
+body {
+    font-size: 1.25em;
+    background-color: rgb(255, 254, 242);
+    line-height: 2em;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0em 7em 7em 7em;
+    color: black;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.25em;
+    color: black
+}
+
+.border {
+    background-color: rgb (255, 253, 208);
+    padding: 1em;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    margin: 5%;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-radius: 1em;
+    background-color: rgb(255, 251, 157);
+}
+
+.border2 {
+    background-color: rgb(255, 253, 209);
+    padding: inherit;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    margin: 5%;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-radius: 1em;
+}
+
+.photo {
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 426
+}
+
+.capitalize {
+    font-variant: small-caps;
+    font-size: 5em;
+}
+
+.imgfloat {
+    float: right;
+    margin: 30px;
+    top: 50%;
+    left: 50%;
+    height: 390px;
+    width: 455px;
+}
+
+.list {
+    float: left;
+    width: 50%;
+}
+
+.side {
+    width: 20%;
+    padding-left: 1em;
+    margin: 0em;
+    float: left;
+    font-style: italic;
+    font-size: 1.25em;
+    box-shadow: inset 5px 0 5px -5px black
+}
+
+.italics {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: red;
+}
+
+.blockcenter {
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
